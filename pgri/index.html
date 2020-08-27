@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>PGRI - Iuran NON PNS</title>
+</head>
+<body>
+<div class="container">
+	<div class="form-apl">
+		<div class="header-form">
+			<h2>Cek Iuran NON PNS</h2>
+		</div>
+		<form action="">
+			<div class="input-form">
+				<label>Tanggal Bayar</label>
+				<input type="date" name="tgl_bayar"  class="form-control" required>
+			</div>
+			<div class="input-form">
+				<label>Jumlah Orang</label>
+				<input type="number" min="1" name="jmlhorang" class="form-control" required>
+			</div>
+			<div class="input-form">
+				<label>Jumlah Bulan</label>
+				<input type="number" min="1" name="jmlbln" class="form-control" required>
+			</div>
+			<div class="input-form">
+				<label>Uang Pangkal</label>
+				<div class="input-group">
+					<span class="add-on"><input type="checkbox" name="uangPangkal" onclick="pesan()" required>
+					</span><input type="text" class="form-control"  disabled>
+				</div>
+			</div>
+			<div class="input-button">
+				<button type="button" onclick="cekIuran()" name="submit">CEK</button>
+			</div>
+		</form>
+	</div>
+	<div class="output">
+		<table>
+				<tr><th>Tanggal Bayar</th><td>-</td></tr>
+				<tr></tr><th>Sampai</th><td>-</td></tr>
+				<tr></tr><th>Jumlah Bulan</th><td>-</td></tr>
+				<tr></tr><th>Jumlah Orang</th><td>-</td></tr>
+				<tr></tr><th>Total Bayar</th><td>-</td></tr>
+		</table>
+	</div>
+</div>
+<footer>
+		<p>&copy; 2020 Kholis</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
