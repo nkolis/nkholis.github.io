@@ -41,6 +41,7 @@
 			padding: 5px;
 			height: 28px;
 			border: 1px solid #B8B6B6;
+                        outline: none;
 			box-sizing: border-box;
 		}
 
