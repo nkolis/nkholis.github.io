@@ -91,8 +91,7 @@
 		.output table {
 			margin-top: 10px;
 			border-collapse: collapse;
-			max-width: 30%;
-			
+			max-width: 30%;	
 		}
 
 		.output table,th,td {
@@ -112,7 +111,7 @@
 		}
 
 		footer {
-			position: fixed;
+			position: absolute;
 			bottom: 0;
 			right: 0;
 			left: 0;
