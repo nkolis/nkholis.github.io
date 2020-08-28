@@ -40,12 +40,13 @@
 			<div class="input-form">
 				<label>Uang Pangkal</label>
 				<div class="input-group">
-					<span class="add-on"><input type="checkbox" name="uangPangkal" onclick="pesan()" required>
+					<span class="add-on"><input type="checkbox" name="uangPangkal" onclick="cekUPangkal()" required>
 					</span><input type="text" class="form-control"  disabled>
 				</div>
 			</div>
 			<div class="input-button">
-				<button type="button" onclick="cekIuran()" name="submit">CEK</button>
+				<button type="reset" class="btn-danger">RESET</button>
+				<button type="button" class="btn-success" onclick="cekIuran()" name="submit">CEK</button>
 			</div>
 		</form>
 	</div>
