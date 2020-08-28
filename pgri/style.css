@@ -1,6 +1,7 @@
 		* {
 			margin: 0;
 			padding: 0;
+			font-family: sans-serif;
 		}
 		.container {
 			max-width: 800px;
@@ -13,7 +14,6 @@
 			align-items: center;
 		}
 		.form-apl .header-form {
-			font-family: sans-serif;
 			margin-bottom: 20px;
 		}
 		.form-apl form {
@@ -32,7 +32,6 @@
 		}
 
 		.input-form label {
-			font-family: sans-serif;
 			font-size: 14px;
 			margin-bottom: 4px;
 		}
@@ -41,7 +40,7 @@
 			padding: 5px;
 			height: 28px;
 			border: 1px solid #B8B6B6;
-                        outline: none;
+			outline: none;
 			box-sizing: border-box;
 		}
 
@@ -69,15 +68,29 @@
 			height: 20px;
 		}
 
+		.form-apl .input-button {
+			display: flex;
+			justify-content: space-between;
+		}
+
 		.form-apl .input-button button {
-			width: 100%;
+			width: 48%;
 			padding: 8px;
-			background-color: green;
+			
 			outline-style: none;
 			border: none;
 			color: #fff;
 			transition: 0.3s;
 		}
+
+		.btn-success {
+			background-color: green;
+		}
+
+		.btn-danger {
+			background-color: red;
+		}
+
 		.form-apl .input-button button:hover {
 			cursor: pointer;
 			background-color: #000;
@@ -92,13 +105,12 @@
 		.output table {
 			margin-top: 10px;
 			border-collapse: collapse;
-			width: 300px;	
+			width: 300px;
 		}
 
 		.output table,th,td {
 			border: 1px solid #ddd;
 			padding: 5px;
-			font-family: sans-serif;
 		}
 
 		.output table th {
@@ -112,7 +124,7 @@
 		}
 
 		footer {
-			position: fixed;
+			position: absolute;
 			bottom: 0;
 			right: 0;
 			left: 0;
@@ -120,6 +132,5 @@
 			background-color: #000;
 			color: #fff;
 			padding: 10px;
-			font-family: sans-serif;
 			font-size: 12px;
 		}
