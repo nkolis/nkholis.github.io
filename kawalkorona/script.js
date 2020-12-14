@@ -20,7 +20,6 @@ async function async(){
  try {
         const result = await getDataIndo();
         updateUI(result);
-        console.log(result)
         } catch (err) {
         alert(err);
     }
